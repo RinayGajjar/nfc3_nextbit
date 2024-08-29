@@ -1,0 +1,57 @@
+.navbarmain{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 20px;
+    margin-top: 30px; */
+    padding-left: 20px;
+    padding-top: 30px;
+    background-color: beige;
+}
+
+.navtags{
+    display: flex;
+    flex-direction: row;
+    gap: 4.5vh;
+    margin-left: 230px;
+    margin-top: 18px;
+}
+
+.navbarbtns{
+    margin-left: 240px;
+    margin-top: 28px;
+}
+
+#navlogin{
+    height: 35px;
+    width: 80px;
+}
+
+#navsign{
+    height: 35px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+#navsign:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#navlogin:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#navp{
+    font-weight: 600;
+    color: black;
+}
+
+#navp:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#navlogo{
+    cursor: pointer;
+}
